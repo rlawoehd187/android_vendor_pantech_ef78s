@@ -153,8 +153,8 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef78s/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so:system/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camera.so:system/vendor/lib/libactuator_rohm_bu64243gwz_camera.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libactuator_rumba_sa.so:system/vendor/lib/libactuator_rumba_sa.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib/libactuator_rumba_sa_camcorder.so:system/vendor/lib/libactuator_rumba_sa_camcorder.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib/libactuator_rumba_sa_camera.so:system/vendor/lib/libactuator_rumba_sa_camera.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib/libactuator_rumba_sa_camcorder_stock.so:system/vendor/lib/libactuator_rumba_sa_camcorder_stock.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib/libactuator_rumba_sa_camera_stock.so:system/vendor/lib/libactuator_rumba_sa_camera_stock.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
@@ -687,6 +687,8 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef78s/proprietary/lib64/libmorpho_panorama.so:system/lib64/libmorpho_panorama.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libFaceProc.so:system/vendor/lib/libFaceProc.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libRecoFace.so:system/vendor/lib/libRecoFace.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib/libactuator_dw9761b_camcorder.so:system/vendor/lib/libactuator_dw9761b_camcorder.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib/libactuator_dw9761b_camera.so:system/vendor/lib/libactuator_dw9761b_camera.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libarcsoft_beauty_shot.so:system/vendor/lib/libarcsoft_beauty_shot.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libflash_i2c.so:system/vendor/lib/libflash_i2c.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
