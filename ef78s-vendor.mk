@@ -26,14 +26,11 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef78s/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/pantech/ef78s/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/pantech/ef78s/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
-    vendor/pantech/ef78s/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/pantech/ef78s/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/pantech/ef78s/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/pantech/ef78s/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/pantech/ef78s/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
-    vendor/pantech/ef78s/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/pantech/ef78s/proprietary/bin/perfd:system/bin/perfd \
-    vendor/pantech/ef78s/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/pantech/ef78s/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/pantech/ef78s/proprietary/bin/radish:system/bin/radish \
     vendor/pantech/ef78s/proprietary/bin/rfs_access:system/bin/rfs_access \
@@ -56,9 +53,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef78s/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
     vendor/pantech/ef78s/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/pantech/ef78s/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
-    vendor/pantech/ef78s/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
-    vendor/pantech/ef78s/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
-    vendor/pantech/ef78s/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/pantech/ef78s/proprietary/etc/dpm/fdMgr/fd.conf:system/etc/dpm/fdMgr/fd.conf \
     vendor/pantech/ef78s/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/pantech/ef78s/proprietary/etc/firmware/Signedrompatch_v20.bin:system/etc/firmware/Signedrompatch_v20.bin \
@@ -298,8 +292,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef78s/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
@@ -307,14 +299,12 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef78s/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libextendedremotedisplay.so:system/vendor/lib/libextendedremotedisplay.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
@@ -424,30 +414,17 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef78s/proprietary/vendor/lib/libmmwfdsrcinterface.so:system/vendor/lib/libmmwfdsrcinterface.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libmsapm_jni.so:system/vendor/lib/libmsapm_jni.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libnative_audio_latency_jni.so:system/vendor/lib/libnative_audio_latency_jni.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libomx-dts.so:system/vendor/lib/libomx-dts.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libpvr.so:system/vendor/lib/libpvr.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/librmp.so:system/vendor/lib/librmp.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
@@ -462,7 +439,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef78s/proprietary/vendor/lib/libsensor_thresh.so:system/vendor/lib/libsensor_thresh.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libsi.so:system/vendor/lib/libsi.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libsrsprocessing.so:system/vendor/lib/libsrsprocessing.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
@@ -547,8 +523,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libcneconn.so:system/vendor/lib64/libcneconn.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libdiagbridge.so:system/vendor/lib64/libdiagbridge.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libdpmctmgr.so:system/vendor/lib64/libdpmctmgr.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libdpmfdmgr.so:system/vendor/lib64/libdpmfdmgr.so \
@@ -556,12 +530,9 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libdpmnsrm.so:system/vendor/lib64/libdpmnsrm.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libextendedremotedisplay.so:system/vendor/lib64/libextendedremotedisplay.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
@@ -596,25 +567,11 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libmmwfdsinkinterface.so:system/vendor/lib64/libmmwfdsinkinterface.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libmmwfdsrcinterface.so:system/vendor/lib64/libmmwfdsrcinterface.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libmsapm_jni.so:system/vendor/lib64/libmsapm_jni.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libpvr.so:system/vendor/lib64/libpvr.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib64/libqmi_cci.so:system/vendor/lib64/libqmi_cci.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib64/libqmi_client_helper.so:system/vendor/lib64/libqmi_client_helper.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib64/libqmi_client_qmux.so:system/vendor/lib64/libqmi_client_qmux.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib64/libqmi_common_so.so:system/vendor/lib64/libqmi_common_so.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib64/libqmi_csi.so:system/vendor/lib64/libqmi_csi.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libqmi_csvt_srvc.so:system/vendor/lib64/libqmi_csvt_srvc.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libquipc_ulp_adapter.so:system/vendor/lib64/libquipc_ulp_adapter.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/librmp.so:system/vendor/lib64/librmp.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
@@ -625,7 +582,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libsensor_thresh.so:system/vendor/lib64/libsensor_thresh.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libsensor_user_cal.so:system/vendor/lib64/libsensor_user_cal.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libsi.so:system/vendor/lib64/libsi.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libsubsystem_control.so:system/vendor/lib64/libsubsystem_control.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
@@ -674,11 +630,23 @@ PRODUCT_PACKAGES += \
     libloc_ds_api \
     libtime_genoff
 PRODUCT_COPY_FILES += \
+    vendor/pantech/ef78s/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/pantech/ef78s/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
+    vendor/pantech/ef78s/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/pantech/ef78s/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/pantech/ef78s/proprietary/bin/pm-service:system/bin/pm-service \
+    vendor/pantech/ef78s/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/pantech/ef78s/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
+    vendor/pantech/ef78s/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
+    vendor/pantech/ef78s/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/pantech/ef78s/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/pantech/ef78s/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
+    vendor/pantech/ef78s/proprietary/lib/libmdmcutback.so:system/lib/libmdmcutback.so \
+    vendor/pantech/ef78s/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
+    vendor/pantech/ef78s/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
+    vendor/pantech/ef78s/proprietary/lib64/libmdmcutback.so:system/lib64/libmdmcutback.so \
+    vendor/pantech/ef78s/proprietary/lib64/libmotext_inf.so:system/lib64/libmotext_inf.so \
+    vendor/pantech/ef78s/proprietary/lib64/libqmimotext.so:system/lib64/libqmimotext.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -694,20 +662,38 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef78s/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib/libqcmaputils.so:system/vendor/lib/libqcmaputils.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
@@ -723,17 +709,40 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libc2d30-a3xx.so:system/vendor/lib64/libc2d30-a3xx.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libmm-abl-oem.so:system/vendor/lib64/libmm-abl-oem.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libmm-abl.so:system/vendor/lib64/libmm-abl.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib64/libqmi_cci.so:system/vendor/lib64/libqmi_cci.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib64/libqmi_client_helper.so:system/vendor/lib64/libqmi_client_helper.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib64/libqmi_client_qmux.so:system/vendor/lib64/libqmi_client_qmux.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib64/libqmi_common_so.so:system/vendor/lib64/libqmi_common_so.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib64/libqmi_csi.so:system/vendor/lib64/libqmi_csi.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libscale.so:system/vendor/lib64/libscale.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib64/libsd_sdk_display.so:system/vendor/lib64/libsd_sdk_display.so
+    vendor/pantech/ef78s/proprietary/vendor/lib64/libsd_sdk_display.so:system/vendor/lib64/libsd_sdk_display.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
+    vendor/pantech/ef78s/proprietary/vendor/qcril.db:system/vendor/qcril.db
