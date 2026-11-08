@@ -82,16 +82,22 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef78s/proprietary/lib/hw/wbc_hal.default.so:system/lib/hw/wbc_hal.default.so \
     vendor/pantech/ef78s/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
     vendor/pantech/ef78s/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
+    vendor/pantech/ef78s/proprietary/lib/libgccdemangle.so:system/lib/libgccdemangle.so \
+    vendor/pantech/ef78s/proprietary/lib/libqctdspsreg.so:system/lib/libqctdspsreg.so \
     vendor/pantech/ef78s/proprietary/lib/libsky_rawdata.so:system/lib/libsky_rawdata.so \
     vendor/pantech/ef78s/proprietary/lib/libsnsutils.so:system/lib/libsnsutils.so \
     vendor/pantech/ef78s/proprietary/lib/libstlport.so:system/lib/libstlport.so \
+    vendor/pantech/ef78s/proprietary/lib/libunwind-ptrace.so:system/lib/libunwind-ptrace.so \
     vendor/pantech/ef78s/proprietary/lib64/hw/wbc_hal.default.so:system/lib64/hw/wbc_hal.default.so \
     vendor/pantech/ef78s/proprietary/lib64/libMcClient.so:system/lib64/libMcClient.so \
     vendor/pantech/ef78s/proprietary/lib64/libMcRegistry.so:system/lib64/libMcRegistry.so \
     vendor/pantech/ef78s/proprietary/lib64/libdrmdecrypt.so:system/lib64/libdrmdecrypt.so \
+    vendor/pantech/ef78s/proprietary/lib64/libgccdemangle.so:system/lib64/libgccdemangle.so \
+    vendor/pantech/ef78s/proprietary/lib64/libqctdspsreg.so:system/lib64/libqctdspsreg.so \
     vendor/pantech/ef78s/proprietary/lib64/libsky_rawdata.so:system/lib64/libsky_rawdata.so \
     vendor/pantech/ef78s/proprietary/lib64/libsnsutils.so:system/lib64/libsnsutils.so \
     vendor/pantech/ef78s/proprietary/lib64/libstlport.so:system/lib64/libstlport.so \
+    vendor/pantech/ef78s/proprietary/lib64/libunwind-ptrace.so:system/lib64/libunwind-ptrace.so \
     vendor/pantech/ef78s/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/pantech/ef78s/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/pantech/ef78s/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
