@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef78s/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/pantech/ef78s/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/pantech/ef78s/proprietary/bin/cnd:system/bin/cnd \
-    vendor/pantech/ef78s/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/pantech/ef78s/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/pantech/ef78s/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/pantech/ef78s/proprietary/bin/energy-awareness:system/bin/energy-awareness \
@@ -746,3 +745,5 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libsd_sdk_display.so:system/vendor/lib64/libsd_sdk_display.so \
     vendor/pantech/ef78s/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/pantech/ef78s/proprietary/vendor/qcril.db:system/vendor/qcril.db
+PRODUCT_COPY_FILES += \
+    vendor/pantech/ef78s/proprietary/bin/cnss-daemon:system/bin/cnss-daemon
