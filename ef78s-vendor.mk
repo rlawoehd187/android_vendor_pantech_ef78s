@@ -313,14 +313,14 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef78s/proprietary/vendor/lib/libmmcamera_eeprom_util.so:system/vendor/lib/libmmcamera_eeprom_util.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libmmcamera_imx132.so:system/vendor/lib/libmmcamera_imx132.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libmmcamera_imx135.so:system/vendor/lib/libmmcamera_imx135.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib/libmmcamera_imx214.so:system/vendor/lib/libmmcamera_imx214.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib/libmmcamera_imx214_stock.so:system/vendor/lib/libmmcamera_imx214_stock.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libmmcamera_imx230.so:system/vendor/lib/libmmcamera_imx230.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libmmcamera_mt9m114.so:system/vendor/lib/libmmcamera_mt9m114.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libmmcamera_ov4688.so:system/vendor/lib/libmmcamera_ov4688.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libmmcamera_ov5645.so:system/vendor/lib/libmmcamera_ov5645.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libmmcamera_rumba_sa_eeprom.so:system/vendor/lib/libmmcamera_rumba_sa_eeprom.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libmmcamera_s5k3m2xx.so:system/vendor/lib/libmmcamera_s5k3m2xx.so \
-    vendor/pantech/ef78s/proprietary/vendor/lib/libmmcamera_s5k5e2.so:system/vendor/lib/libmmcamera_s5k5e2.so \
+    vendor/pantech/ef78s/proprietary/vendor/lib/libmmcamera_s5k5e2_stock.so:system/vendor/lib/libmmcamera_s5k5e2_stock.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libmmcamera_s5k6b2yx.so:system/vendor/lib/libmmcamera_s5k6b2yx.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libmmhttpstack.so:system/vendor/lib/libmmhttpstack.so \
     vendor/pantech/ef78s/proprietary/vendor/lib/libmmiipstreammmihttp.so:system/vendor/lib/libmmiipstreammmihttp.so \
